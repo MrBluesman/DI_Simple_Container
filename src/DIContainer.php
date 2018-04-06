@@ -20,7 +20,7 @@ class DIContainer
      * Registers on dependency in the container
      * Creates an array with $value and optional $args, matches with the $key end stores
      * @param $key string identifier of the dependency in the map
-     * @param $value object or primitive type to store in dependencies
+     * @param $value string value to store in dependencies
      * @param $args array optional constructor arguments
      */
     public function register($key, $value, $args)
